@@ -179,3 +179,6 @@ At the end of the course, each team will present their game in a **10-minute pre
 - **Playtesting and Polishing**: 2%  
 - **Teaser Video**: 2%  
 - **Project Presentation**: 2%
+
+
+--
