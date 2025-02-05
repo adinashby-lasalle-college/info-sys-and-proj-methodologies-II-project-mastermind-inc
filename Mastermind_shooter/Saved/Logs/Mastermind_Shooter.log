@@ -1994,3 +1994,113 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.05-20.31.32:401][558]LogSavePackage: Moving '../../../../Unreal Projects/MastermindRivals/info-sys-and-proj-methodologies-II-project-mastermind-inc/Mastermind_shooter/Saved/NAJ7N2ZZPBBGXER1WWITB2_Auto12FEDAB0E490FAAF0C8E18FA8E6F924B0.tmp' to '../../../../Unreal Projects/MastermindRivals/info-sys-and-proj-methodologies-II-project-mastermind-inc/Mastermind_shooter/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/5F/NAJ7N2ZZPBBGXER1WWITB2_Auto1.uasset'
 [2025.02.05-20.31.32:402][558]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.033
 [2025.02.05-20.31.32:402][558]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: ================================================
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Total job queries 172, among them cache hits 14 (8.14%), DDC hits 140 (81.40%), Duplicates 4 (2.33%)
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Tracking 154 distinct input hashes that result in 143 distinct outputs (92.86%)
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: RAM used: 117.06 KiB of 819.20 MiB budget. Usage: 0.01%
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Shaders Compiled: 14
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Jobs assigned 14, completed 14 (100%)
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Average time worker was idle: 7.09 s
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.11 s
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Job execution time: average 1.73 s, max 2.85 s
+[2025.02.05-20.32.20:593][703]LogShaderCompilers: Display: Job life time (pending + execution): average 1.82 s, max 2.95
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Shader code size: average 10.351 KiB, min 7.188 KiB, max 16.207 KiB
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.85 s
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Average processing rate: 1.42 jobs/sec
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Total thread time: 16.148 s
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Total thread preprocess time: 3.242 s
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Percentage time preprocessing: 20.07%
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Effective parallelization: 1.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 1.51 sec, max 2.07 sec, min 0.64 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 1.08 sec, max 1.44 sec, min 0.43 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    6 times, average 0.97 sec, max 1.08 sec, min 0.92 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 37.40% of total time (compiled    4 times, average 1.51 sec, max 2.07 sec, min 0.64 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 35.88% of total time (compiled    6 times, average 0.97 sec, max 1.08 sec, min 0.92 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.72% of total time (compiled    4 times, average 1.08 sec, max 1.44 sec, min 0.43 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display:                                                  FHitProxyVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: === Material stats ===
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Materials Translated:    139
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Material Translation Only: 0.04 s (37%)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: Material Cache Hits: 24 (17%)
+[2025.02.05-20.32.20:594][703]LogShaderCompilers: Display: ================================================
+[2025.02.05-20.36.01:774][441]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1313.990479
+[2025.02.05-20.36.01:856][446]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.05-20.36.01:856][446]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1314.055542, Update Interval: 306.947235
+[2025.02.05-20.37.51:544][ 26]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.05-20.37.51:551][ 26]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.05-20.37.51:551][ 26]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.05-20.37.51:561][ 26]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 9.233 ms (total: 52.866 ms)
+[2025.02.05-20.37.51:561][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.05-20.37.51:561][ 26]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.05-20.37.51:564][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003211s)
+[2025.02.05-20.37.51:564][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003242s)
+[2025.02.05-20.37.51:585][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.02.05-20.37.51:586][ 26]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.05-20.37.51:587][ 26]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.05-20.37.51:587][ 26]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.05-20.37.51:587][ 26]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.05-20.37.51:587][ 26]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.05-20.37.51:589][ 26]LogWorldPartition: Display: WorldPartition initialize took 1.448 ms (total: 83.402 ms)
+[2025.02.05-20.37.51:589][ 26]LogPlayLevel: PIE: World Init took: (0.003038s)
+[2025.02.05-20.37.51:590][ 26]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.02.05-20.37.51:590][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.05-20.37.51:590][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.05-20.37.51:590][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.05-20.37.51:590][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.05-20.37.51:590][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.05-20.37.51:590][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.05-20.37.51:590][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.05-20.37.51:590][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.05-20.37.51:590][ 26]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.05-20.37.51:590][ 26]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.05-20.37.51:590][ 26]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.05-20.37.51:592][ 26]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.05-20.37.51:640][ 26]LogAudioMixer: Display: Using Audio Hardware Device Headphones (OpenFit by Shokz)
+[2025.02.05-20.37.51:640][ 26]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.05-20.37.51:640][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.05-20.37.51:640][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.05-20.37.51:641][ 26]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.02.05-20.37.51:641][ 26]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.02.05-20.37.51:643][ 26]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.02.05-20.37.51:644][ 26]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.02.05-20.37.51:644][ 26]LogInit: FAudioDevice initialized with ID 8.
+[2025.02.05-20.37.51:644][ 26]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2025.02.05-20.37.51:644][ 26]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.05-20.37.51:646][ 26]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.05-20.37.51:649][ 26]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.05-15.37.51
+[2025.02.05-20.37.51:650][ 26]LogWorld: Bringing up level for play took: 0.002778
+[2025.02.05-20.37.51:652][ 26]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.02.05-20.37.51:656][ 26]PIE: Server logged in
+[2025.02.05-20.37.51:657][ 26]PIE: Play in editor total start time 0.105 seconds.
+[2025.02.05-20.37.57:444][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.05-20.37.57:444][369]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.05-20.37.57:444][369]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.05-20.37.57:445][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.05-20.37.57:445][369]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.05-20.37.57:449][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.05-20.37.57:454][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.05-20.37.57:477][369]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.05-20.37.57:477][369]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.05-20.37.57:477][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.05-20.37.57:480][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.05-20.37.57:485][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.05-20.37.57:489][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.02.05-20.37.57:527][370]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.02.05-20.41.34:879][849]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1647.091797
+[2025.02.05-20.41.35:879][852]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.05-20.41.35:879][852]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1647.758301, Update Interval: 328.649567
+[2025.02.05-20.47.55:079][ 25]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2027.290283
+[2025.02.05-20.47.56:080][ 28]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.05-20.47.56:080][ 28]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2027.957275, Update Interval: 327.688232
