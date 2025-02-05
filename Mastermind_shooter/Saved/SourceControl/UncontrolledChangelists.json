@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Unreal Projects/Project_pitre/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Unreal Projects/Project_pitre/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Unreal Projects/Project_pitre/Content/Felix_stuff/BP_ThirdPersonCharacter.uasset",
+				"C:/Unreal Projects/Project_pitre/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Unreal Projects/Project_pitre/Content/Felix_stuff/Input/IA_move.uasset",
+				"C:/Unreal Projects/Project_pitre/Content/Felix_stuff/Input/IA_look.uasset",
+				"C:/Unreal Projects/Project_pitre/Content/Felix_stuff/Input/IM_CharaterControl.uasset"
+			]
+		}
+	]
+}
